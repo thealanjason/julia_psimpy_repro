@@ -1,0 +1,10 @@
+[deps]
+r-base = ""
+numpy = ""
+python = "3.10"
+
+    [deps.r-robustgasp]
+    channel = "r"
+
+[pip.deps]
+psimpy = ""
