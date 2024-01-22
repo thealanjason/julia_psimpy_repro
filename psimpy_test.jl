@@ -24,9 +24,12 @@ y_train = y[1:20:100]
 model.train(np.asarray(x_train), np.asarray(y_train))
 
 y_predict = pyconvert(PyArray, model.predict(np.asarray(x)))
-plot(x, y, label="data")
+figure = plot(x, y, label="data")
 scatter!(x_train, y_train, label="sample")
 plot!(x, y_predict[:,1], label="mean")
 plot!(x, y_predict[:,2], label="lower")
 plot!(x, y_predict[:,3], label="upper")
 plot!(x, square.(x), label="true", linewidth=2.0, color="black")
+
+savefig(figure, "test_case_reproduced.png")
+
