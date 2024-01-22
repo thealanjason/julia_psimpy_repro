@@ -25,14 +25,17 @@ winget install julia -s msstore
 ## 2. Reproduce Test Environment
 
 ## For a Quick Preview
-Run the following command in Linux/Mac Terminal or Windows Powershell
-```
-julia --project=@. psimpy_test.jl
-```
-The generated plot `test_case_reproduced.png` should be the same as `test_case.png`. 
+- Navigate to the folder of this repository on your computer
+
+- Run the following command in Linux/Mac Terminal or Windows Powershell
+    ```
+    julia --project=@. psimpy_test.jl
+    ```
+    The generated plot `test_case_reproduced.png` should be the same as `test_case.png`. 
 
 
 ## For Exploration in Interactive Mode
+- Navigate to the folder of this repository on your computer
 
 - Start Julia by typing `julia` in Linux/Mac Terminal or Windows Powershell
 
