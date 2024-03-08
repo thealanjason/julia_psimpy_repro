@@ -12,11 +12,9 @@ x = LinRange(0, 10, 100)
 using Random
 rng = MersenneTwister(2);
 y = square.(x) .+ 5*randn(rng, size(x))
-
-
 emulator = pyimport("psimpy.emulator")
 
-ScalarGaSP=emulator.ScalarGaSP
+ScalarGaSP=emulator.ScalarGaSP;
 model = ScalarGaSP(ndim=1)
 
 x_train = x[1:20:100]
