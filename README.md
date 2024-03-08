@@ -2,8 +2,7 @@
 
 This repository is a MWE to showcase installation of Psimpy, R, and RobustGaSP in a reproducible Julia environment. 
 
-
-
+Next Goal: Provide a r.Avaflow installation through Docker or Julia BinaryBuilder
 
 # Installation
 
@@ -22,9 +21,15 @@ In the Windows Powershell type the following command to install Julia
 winget install julia -s msstore
 ```
 
-## 2. Reproduce Test Environment
+## 2. Reproduce Test Case
 
-- Navigate to the folder of this repository on your computer
+- Clone this git repository
+
+- Navigate to the folder of the repository
+    ```
+    cd julia_psimpy_repro
+    ```
+
 
 - Run the following command in Linux/Mac Terminal or Windows Powershell
     ```
@@ -33,9 +38,9 @@ winget install julia -s msstore
     The generated plot `test_case_reproduced.png` should be the same as `test_case.png`. 
 
 
-## Reporoducibility Aspects
+# Reporoducibility Aspects
 
-This environment has been successfully reproduced on :
+This test case has been successfully reproduced on :
 - [x] Linux (x86_64)
 - [ ] Linux (aarch_64)
 - [ ] Windows (x86_64)
