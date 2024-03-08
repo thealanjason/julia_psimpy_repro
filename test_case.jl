@@ -22,7 +22,7 @@ y_train = y[1:20:100]
 model.train(np.asarray(x_train), np.asarray(y_train))
 
 y_predict = pyconvert(PyArray, model.predict(np.asarray(x)))
-figure = plot(x, y, label="data")
+figure = plot(x, y, label="data",dpi=600)
 scatter!(x_train, y_train, label="sample")
 plot!(x, y_predict[:,1], label="mean")
 plot!(x, y_predict[:,2], label="lower")
