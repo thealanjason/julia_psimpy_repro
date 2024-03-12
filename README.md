@@ -42,7 +42,8 @@ winget install julia -s msstore
 
 This test case has been successfully reproduced on :
 - [x] Linux (x86_64)
+- [x] Linux WSL (x86_64)
 - [ ] Linux (aarch_64)
-- [ ] Windows (x86_64)
+- [x] Windows (x86_64)
 - [ ] MacOS (x86_64)
 - [ ] MacOS (aarch_64)
