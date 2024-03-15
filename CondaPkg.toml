@@ -1,6 +1,2 @@
 [deps]
-python = "=3.10"
-r-robustgasp = "=0.6.4"
-
-[pip.deps]
-psimpy = "@git+https://git.rwth-aachen.de/mbd/psimpy.git@dev"
+psimpy = "0.2.0"
