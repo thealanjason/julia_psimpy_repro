@@ -2,8 +2,6 @@
 
 This repository is a MWE to showcase installation of Psimpy, R, and RobustGaSP in a reproducible Julia environment. 
 
-Next Goal: Provide a r.Avaflow installation through Docker or Julia BinaryBuilder
-
 # Installation
 
 ## 1. Install Julia
@@ -46,4 +44,4 @@ This test case has been successfully reproduced on :
 - [ ] Linux (aarch_64)
 - [x] Windows (x86_64)
 - [ ] MacOS (x86_64)
-- [ ] MacOS (aarch_64)
+- [x] MacOS (aarch_64)
